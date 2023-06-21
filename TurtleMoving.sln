@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33801.447
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TurtleMoving", "TurtleMoving\TurtleMoving.csproj", "{B6B4D4E9-A98F-480D-AFEA-05B177594998}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Artifacts", "Artifacts", "{1F6A6D40-07AF-443E-B169-158633577589}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+		SampleCommands.txt = SampleCommands.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurtleMoving.Engine.Tests", "TurtleMoving.Engine.Tests\TurtleMoving.Engine.Tests.csproj", "{A4A56FFA-E38E-4257-8970-A64DE53977F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurtleMoving.Engine", "TurtleMoving.Engine\TurtleMoving.Engine.csproj", "{4F3FB905-5DC0-41BF-9027-02B0594C8B2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6B4D4E9-A98F-480D-AFEA-05B177594998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6B4D4E9-A98F-480D-AFEA-05B177594998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6B4D4E9-A98F-480D-AFEA-05B177594998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6B4D4E9-A98F-480D-AFEA-05B177594998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4A56FFA-E38E-4257-8970-A64DE53977F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4A56FFA-E38E-4257-8970-A64DE53977F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4A56FFA-E38E-4257-8970-A64DE53977F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4A56FFA-E38E-4257-8970-A64DE53977F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F3FB905-5DC0-41BF-9027-02B0594C8B2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F3FB905-5DC0-41BF-9027-02B0594C8B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F3FB905-5DC0-41BF-9027-02B0594C8B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F3FB905-5DC0-41BF-9027-02B0594C8B2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEF176A1-C472-4312-940F-75FC72035239}
+	EndGlobalSection
+EndGlobal
