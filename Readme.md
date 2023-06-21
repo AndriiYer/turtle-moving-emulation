@@ -1,6 +1,6 @@
-#Turtle moving emulation
+# Turtle moving emulation
 
-##Description
+## Description
 The application is a simulation of a turtle moving on a square tabletop, of dimensions 5 units x 5 units.
 
 There are no other obstructions on the table surface
@@ -32,7 +32,7 @@ Input can be from a file or from standard input. It must be possible to accept i
 
 Provide tests with good coverage to exercise the application.
 
-##Constraints
+## Constraints
 The turtle must not fall off the table during movement. This also includes the initial placement of the turtle. 
 
 Any move that would cause the turtle to fall must be ignored.
@@ -66,5 +66,5 @@ REPORT
 --- Output ---
 3,3,NORTH
 
-##Deliverables
+## Deliverables
 A Visual Studio solution (in C# dotNet Core 2.2) with associated source files, and tests. There should be no dependencies other than the chosen unit test framework
